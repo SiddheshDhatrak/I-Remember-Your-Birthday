@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/I-Remember-Your-Birthday/static/css/main.2d21428f.css",
+    "main.js": "/I-Remember-Your-Birthday/static/js/main.7246481e.js",
+    "index.html": "/I-Remember-Your-Birthday/index.html",
+    "main.2d21428f.css.map": "/I-Remember-Your-Birthday/static/css/main.2d21428f.css.map",
+    "main.7246481e.js.map": "/I-Remember-Your-Birthday/static/js/main.7246481e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d21428f.css",
+    "static/js/main.7246481e.js"
+  ]
+}
