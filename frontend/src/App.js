@@ -9,7 +9,8 @@ import "./styles/birthday.css";
 // Background Audio Component
 const BackgroundAudio = () => {
   React.useEffect(() => {
-    const audio = new Audio('/aud.mp3');
+    // FIX: Added process.env.PUBLIC_URL to find the file on GitHub Pages
+    const audio = new Audio(process.env.PUBLIC_URL + '/aud.mp3');
     audio.volume = 0.7;
     audio.loop = false;
 
@@ -73,7 +74,8 @@ const BirthdayPage = () => {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* This line below is PERFECT. Do not change it. */}
+      <BrowserRouter basename="/I-Remember-Your-Birthday">
         <Routes>
           <Route path="/" element={<BirthdayPage />} />
         </Routes>
