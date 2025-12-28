@@ -1,8 +1,3 @@
-/* ================================
-   SHRIYA'S BIRTHDAY WEBSITE STYLES
-   A Romantic Dark Theme Experience
-   ================================ */
-
 /* CSS Variables */
 :root {
   --bg-primary: #0a0a0f;
@@ -38,9 +33,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* ================================
-   HERO SECTION
-   ================================ */
+/* HERO SECTION */
 .hero-section {
   min-height: 100vh;
   display: flex;
@@ -272,9 +265,7 @@ body {
   50% { transform: translateY(10px); }
 }
 
-/* ================================
-   MEMORY GALLERY SECTION
-   ================================ */
+/* MEMORY GALLERY SECTION */
 .memory-gallery-section {
   padding: 6rem 2rem;
   background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 50%, var(--bg-primary) 100%);
@@ -430,9 +421,7 @@ body {
   transform: rotate(45deg);
 }
 
-/* ================================
-   LIGHTBOX MODAL
-   ================================ */
+/* LIGHTBOX MODAL */
 .lightbox-overlay {
   position: fixed;
   inset: 0;
@@ -631,9 +620,7 @@ body {
   51%, 100% { opacity: 0; }
 }
 
-/* ================================
-   FINAL MESSAGE SECTION
-   ================================ */
+/* FINAL MESSAGE SECTION */
 .final-message-section {
   min-height: 100vh;
   display: flex;
@@ -787,9 +774,7 @@ body {
   color: var(--text-muted);
 }
 
-/* ================================
-   RESPONSIVE DESIGN
-   ================================ */
+/* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
   .hero-title {
     font-size: 3.5rem;

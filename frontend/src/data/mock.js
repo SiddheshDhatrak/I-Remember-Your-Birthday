@@ -1,6 +1,3 @@
-// Mock data for Shriya's Birthday Website
-// Updated with process.env.PUBLIC_URL for GitHub Pages support
-
 export const heroData = {
   name: "Shriya",
   nickname: "Shriyu",
